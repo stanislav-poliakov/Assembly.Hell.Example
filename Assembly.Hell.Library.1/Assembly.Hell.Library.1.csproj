@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>Assembly.Hell.Library</RootNamespace>
+		<AssemblyName>Assembly.Hell.Library</AssemblyName>
+		<Version>1.0.0.0</Version>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>C:\.repo\.sandbox\Assembly-Hell\assembly-hell-key.snk</AssemblyOriginatorKeyFile>
+		<DelaySign>false</DelaySign>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\assembly-hell-key.snk" Link="assembly-hell-key.snk" />
+	</ItemGroup>
+
+</Project>

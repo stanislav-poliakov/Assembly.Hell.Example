@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Reference Include="Assembly.Hell.Library">
+	    <HintPath>..\Assembly.Hell.Library.1.1\bin\Debug\net48\Assembly.Hell.Library.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+
+		<Reference Update="System">
+
+		</Reference>
+	</ItemGroup>
+
+</Project>
